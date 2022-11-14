@@ -124,7 +124,7 @@ The project uses an AWS S3 bucket to store image files.
             "Principal":"*",
             "Action":"s3:*",
             "Effect":"Allow",
-            "Resource":"arn:aws:s3:::test-nd9990-dev-wc"
+            "Resource":"arn:aws:s3:::katjiuonguadev"
          }
       ]
    }
@@ -226,15 +226,15 @@ Set all the environment variables as shown in the `set_env.sh` file either using
 
 Below is an example. Make sure that you replace the values with ones that are applicable to the resources that you created in AWS.
 ```bash
-setx POSTGRES_USERNAME postgres
-setx POSTGRES_PASSWORD abcd1234
-setx POSTGRES_HOST mypostgres-database-1.c5szli4s4qq9.us-east-1.rds.amazonaws.com
-setx POSTGRES_DB postgres
-setx AWS_BUCKET test-nd9990-dev-wc
-setx AWS_REGION us-east-1
-setx AWS_PROFILE nd9990
-setx JWT_SECRET hello
-setx URL http://localhost:8100
+setx POSTGRES_USERNAME "tengeevandu" /M
+setx POSTGRES_PASSWORD "BuGWAoz2we3" /M
+setx POSTGRES_HOST "katjiuonguadb.cgvesetorrvn.us-east-1.rds.amazonaws.com" /M
+setx POSTGRES_DB "katjiuonguadb" /M
+setx AWS_BUCKET "katjiuonguadev" /M
+setx AWS_REGION "us-east-1" /M
+setx AWS_PROFILE "default" /M
+setx JWT_SECRET "testing" /M
+setx URL "http://localhost:8100" /M
 ```
 
 # Get Started!
