@@ -226,14 +226,14 @@ Set all the environment variables as shown in the `set_env.sh` file either using
 
 Below is an example. Make sure that you replace the values with ones that are applicable to the resources that you created in AWS.
 ```bash
-setx POSTGRES_USERNAME "tengeevandu" /M
-setx POSTGRES_PASSWORD "BuGWAoz2we3" /M
-setx POSTGRES_HOST "katjiuonguadb.cgvesetorrvn.us-east-1.rds.amazonaws.com" /M
-setx POSTGRES_DB "katjiuonguadb" /M
-setx AWS_BUCKET "katjiuonguadev" /M
+setx POSTGRES_USERNAME "username" /M
+setx POSTGRES_PASSWORD "password" /M
+setx POSTGRES_HOST "postgres.cgvesetorrvn.us-east-1.rds.amazonaws.com" /M
+setx POSTGRES_DB "postgres" /M
+setx AWS_BUCKET "postgresdev" /M
 setx AWS_REGION "us-east-1" /M
 setx AWS_PROFILE "default" /M
-setx JWT_SECRET "testing" /M
+setx JWT_SECRET "helloworld" /M
 setx URL "http://localhost:8100" /M
 ```
 
