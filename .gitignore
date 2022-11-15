@@ -30,6 +30,11 @@ plugins/ios.json
 $RECYCLE.BIN/
 postgres_dev/
 logfile
+udauser.tar
+udafront.tar
+udafeed.tar
+reverseproxy.tar
+
 
 .DS_Store
 Thumbs.db
